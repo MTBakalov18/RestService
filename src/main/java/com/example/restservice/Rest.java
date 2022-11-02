@@ -13,7 +13,7 @@ public class Rest {
     @GetMapping("/user")
     public String user() {
 
-        return String.format("User: %s<br>Age:  %s<br>From: %s", "<Вашите имена>", "<Вашите години>", "<Вашият роден град>");
+        return String.format("User: %s<br>Age:  %s<br>From: %s", "Мартин Бакалов", "17г.", "Равда, Бургас");
     }
 
     @GetMapping("/about")
